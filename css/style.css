@@ -1,0 +1,96 @@
+/*corp de la page*/
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: ;
+}
+/*couleur utiiser*/
+.color-purple {
+  color: var(--color-purple);
+}
+.color-pink {
+  color: var(--color-pink);
+}
+.color-sky-blue {
+  color: var(--color-sky-blue);
+}
+/*header*/
+.image_header {
+  margin-bottom: 15px;
+}
+.icon_map {
+  font-size: ;
+  color: black;
+}
+.address {
+  background-color: rgb(218, 218, 218);
+  height: 45px;
+}
+.text_header {
+  font-size: 18px;
+  font-weight: ;
+}
+.title_description_button {
+  background-color: rgb(238, 238, 238);
+}
+.text_reserve {
+  font-size: 28px;
+  font-weight: ;
+}
+.text_description {
+  font-size: 20px;
+  font-weight: ;
+}
+.button_explore {
+  border: 0 transparent;
+  height: 45px;
+  font-size: 17px;
+  padding: 0 20px;
+  background: linear-gradient(to top, var(--color-purple), var(--color-pink));
+  color: white;
+  border-radius: 20px;
+}
+/*main*/
+.title_function {
+  font-weight: ;
+}
+.choice {
+  display: flex;
+  border: transparent;
+  border-radius: 15px;
+  background-color: rgb(247, 247, 247);
+  height: 45px;
+}
+/* icon ici!*/
+.text_choice {
+  display: flex;
+  text-align: center;
+  font-size: 22px;
+}
+.block_restaurant {
+  background-color: rgb(238, 238, 238);
+}
+.title_restaurant {
+  font-weight: ;
+}
+.border_card_restaurants {
+  border: transparent;
+  background-color: white;
+  box-shadow: ;
+}
+.image_welcome {
+  object-fit: cover;
+  height: 200px;
+}
+/*footer*/
+.footer {
+  background-color: rgb(53, 53, 53);
+}
+.text_icons_footer {
+  color: white;
+}
+.text_footer {
+  font-size: ;
+}

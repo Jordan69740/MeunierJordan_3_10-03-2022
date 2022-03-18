@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  .image_header {
+    text-align: center;
+  }
+  .text_header {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .text_reserve {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .text_description {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .button_explore {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /*main*/
+  .function {
+    margin-bottom: 30px;
+  }
+  .title_function {
+    margin-bottom: 40px;
+  }
+  .choice {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .title_restaurant {
+    padding-top: 70px;
+    margin-bottom: 25px;
+  }
+  /*footer*/
+  .text_footer {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 375px) {
+}
