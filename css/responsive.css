@@ -1,22 +1,12 @@
 @media (max-width: 768px) {
-  .image_header {
-    text-align: center;
-  }
   .text_header {
-    text-align: center;
     padding-top: 10px;
   }
   .text_reserve {
-    text-align: center;
     margin-bottom: 10px;
   }
   .text_description {
-    text-align: center;
     margin-bottom: 30px;
-  }
-  .button_explore {
-    justify-content: center;
-    margin-bottom: 50px;
   }
   /*main*/
   .function {
@@ -35,7 +25,7 @@
   }
   /*footer*/
   .text_footer {
-    margin-bottom: 8px;
+    padding-bottom: 8px;
   }
 }
 @media (max-width: 375px) {
