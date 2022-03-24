@@ -26,6 +26,9 @@ body {
   color: black;
 }
 .address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(218, 218, 218);
   height: 45px;
 }
@@ -63,9 +66,11 @@ body {
 }
 .title_function {
   font-weight: ;
+  margin-bottom: 25px;
 }
 .choice {
   display: flex;
+  justify-content: center;
   border: transparent;
   border-radius: 15px;
   background-color: rgb(247, 247, 247);
