@@ -40,15 +40,17 @@ body {
 .title_description_button {
   background-color: rgb(238, 238, 238);
   text-align: center;
-  margin-bottom: 50px;
-  padding-bottom: 20px;
+  margin-bottom: 35px;
+  padding-bottom: 40px;
 }
 .text_reserve {
+  margin-bottom: 5px;
   font-size: 28px;
   font-weight: ;
 }
 .text_description {
   font-size: 20px;
+  margin-bottom: 35px;
   font-weight: ;
 }
 .button_explore {
@@ -61,7 +63,7 @@ body {
   border-radius: 20px;
 }
 /*main*/
-.function{
+.function {
   text-align: center;
 }
 .title_function {
@@ -74,7 +76,8 @@ body {
   border: transparent;
   border-radius: 15px;
   background-color: rgb(247, 247, 247);
-  height: 45px;
+  padding: 8px 0;
+  width: 25%;
 }
 /* icon ici!*/
 .text_choice {
@@ -87,16 +90,22 @@ body {
   padding: 0 10px 0 10px;
 }
 .title_restaurant {
+  padding: 35px 0 25px 0;
   font-weight: ;
 }
-.border_card_restaurants {
+.border_card_restaurant {
   border: transparent;
   background-color: white;
-  padding: 0 75px 0 75px;
+  border-radius: 15px 15px 0 0;
   box-shadow: ;
+}
+.text_image_restaurant {
+  border: transparent;
+  background-color: white;
 }
 .image_welcome {
   object-fit: cover;
+  border-radius: 15px 15px 0 0;
   height: 210%;
   width: 100%;
 }
