@@ -65,6 +65,7 @@ body {
   background: linear-gradient(to top, var(--color-purple), var(--color-pink));
   color: white;
   border-radius: 20px;
+  cursor: pointer;
 }
 /*main*/
 .function {
@@ -105,7 +106,7 @@ body {
 .border_card_restaurant {
   border: transparent;
   background-color: white;
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px;
   margin-bottom: 20px;
   box-shadow: ;
 }
@@ -115,19 +116,18 @@ body {
   height: 160px;
   width: 100%;
 }
+.border_text_restaurant {
+  border: transparent;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 15px;
+}
 .text_icon_restaurant {
   display: flex;
   flex-direction: column;
 }
 .heart_restaurant {
   font-size: 30px;
-}
-.border_text_restaurant {
-  border: transparent;
-  background-color: white;
-  justify-content: space-between;
-  display: flex;
-  margin: 0 15px;
 }
 /*footer*/
 .footer {
@@ -142,4 +142,7 @@ body {
 }
 .icon_text {
   display: flex;
+}
+.icon_footer{
+  margin: 6px;
 }
