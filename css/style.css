@@ -44,13 +44,14 @@ body {
   padding-bottom: 40px;
 }
 .text_reserve {
+  padding-top: 15px;
   margin-bottom: 5px;
   font-size: 28px;
   font-weight: ;
 }
 .text_description {
   font-size: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   font-weight: ;
 }
 .button_explore {
@@ -65,6 +66,9 @@ body {
 /*main*/
 .function {
   text-align: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
 }
 .title_function {
   font-weight: ;
@@ -74,9 +78,10 @@ body {
   display: flex;
   justify-content: center;
   border: transparent;
-  border-radius: 15px;
+  margin-bottom: 25px;
+  border-radius: 10px;
   background-color: rgb(247, 247, 247);
-  padding: 8px 0;
+  padding: 15px 0;
   width: 25%;
 }
 /* icon ici!*/
