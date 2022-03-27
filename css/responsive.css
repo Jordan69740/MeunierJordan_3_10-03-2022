@@ -14,10 +14,19 @@
   }
   .title_function {
     margin-bottom: 40px;
+    width: 100%;
+    margin-left: 100px;
   }
   .choice {
     align-items: center;
     margin-bottom: 15px;
+  }
+  .border_card_restaurant {
+    margin-bottom: 20px;
+  }
+  .image_welcome {
+    height: 160px;
+    width: 100%;
   }
   .title_restaurant {
     padding-top: 70px;

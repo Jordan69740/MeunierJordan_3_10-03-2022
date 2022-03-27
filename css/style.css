@@ -4,7 +4,7 @@
   margin: 0;
 }
 body {
-  font-family: ;
+  font-family: roboto;
 }
 /*couleur utiiser*/
 .color-purple {
@@ -18,8 +18,11 @@ body {
 }
 /*header*/
 .image_header {
-  margin-bottom: 15px;
+  margin: 15px;
   text-align: center;
+  object-fit: cover;
+  width: 165px;
+  margin: 0 auto;
 }
 .icon_map {
   font-size: ;
@@ -30,9 +33,10 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(218, 218, 218);
-  height: 45px;
+  padding: 10px 0;
 }
-.text_header {
+.text_title_reserve {
+  padding: 10px 0;
   text-align: center;
   font-size: 18px;
   font-weight: ;
@@ -40,12 +44,11 @@ body {
 .title_description_button {
   background-color: rgb(238, 238, 238);
   text-align: center;
-  margin-bottom: 35px;
-  padding-bottom: 40px;
+  padding: 0 0 40px 0;
 }
 .text_reserve {
-  padding-top: 15px;
-  margin-bottom: 5px;
+  padding: 8px 0;
+  margin: 0 0 0 0;
   font-size: 28px;
   font-weight: ;
 }
@@ -72,6 +75,7 @@ body {
 }
 .title_function {
   font-weight: ;
+  text-align: left;
   margin-bottom: 25px;
 }
 .choice {
@@ -81,8 +85,8 @@ body {
   margin-bottom: 25px;
   border-radius: 10px;
   background-color: rgb(247, 247, 247);
-  padding: 15px 0;
-  width: 25%;
+  padding: 15px 5px;
+  width: 100%;
 }
 /* icon ici!*/
 .text_choice {
@@ -102,17 +106,28 @@ body {
   border: transparent;
   background-color: white;
   border-radius: 15px 15px 0 0;
+  margin-bottom: 20px;
   box-shadow: ;
-}
-.text_image_restaurant {
-  border: transparent;
-  background-color: white;
 }
 .image_welcome {
   object-fit: cover;
   border-radius: 15px 15px 0 0;
-  height: 210%;
+  height: 160px;
   width: 100%;
+}
+.text_icon_restaurant {
+  display: flex;
+  flex-direction: column;
+}
+.heart_restaurant {
+  font-size: 30px;
+}
+.border_text_restaurant {
+  border: transparent;
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 15px;
 }
 /*footer*/
 .footer {
@@ -122,5 +137,9 @@ body {
   color: white;
 }
 .text_footer {
+  padding-bottom: 5px;
   font-size: ;
+}
+.icon_text {
+  display: flex;
 }
