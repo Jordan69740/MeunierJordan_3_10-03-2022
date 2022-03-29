@@ -17,12 +17,9 @@ body {
   color: var(--color-sky-blue);
 }
 /*header*/
-.image_header {
-  margin: 15px;
+.logo {
   text-align: center;
-  object-fit: cover;
-  width: 165px;
-  margin: 0 auto;
+  font-family: "Shrikhand", cursive;
 }
 .icon_map {
   font-size: ;
@@ -143,6 +140,6 @@ body {
 .icon_text {
   display: flex;
 }
-.icon_footer{
+.icon_footer {
   margin: 6px;
 }
