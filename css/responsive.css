@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  .logo{
+    font-size: 35px;
+    margin: 20px 0;
+  }
   .text_header {
     padding-top: 10px;
   }
@@ -9,17 +13,18 @@
     margin-bottom: 30px;
   }
   /*main*/
-  .function {
-    margin-bottom: 30px;
-  }
   .title_function {
-    margin-bottom: 40px;
     width: 100%;
-    margin-left: 100px;
+    padding-left: 30px;
+    margin-bottom: 20px;
   }
   .choice {
     align-items: center;
-    margin-bottom: 15px;
+    padding: 20px 10px;
+    justify-content: center;
+  }
+  .text_choice {
+    font-size: 19px;
   }
   .border_card_restaurant {
     margin-bottom: 20px;

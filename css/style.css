@@ -4,7 +4,10 @@
   margin: 0;
 }
 body {
-  font-family: roboto;
+  font-family: "roboto";
+}
+.list {
+  list-style-type: none;
 }
 /*couleur utiiser*/
 .color-purple {
@@ -20,39 +23,39 @@ body {
 .logo {
   text-align: center;
   font-family: "Shrikhand", cursive;
+  font-size: 50px;
 }
 .icon_map {
-  font-size: ;
   color: black;
+  margin: 0 8px;
 }
 .address {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(218, 218, 218);
-  padding: 10px 0;
+  padding: 6px 0;
+  box-shadow: ;
 }
 .text_title_reserve {
   padding: 10px 0;
   text-align: center;
   font-size: 18px;
-  font-weight: ;
 }
 .title_description_button {
   background-color: rgb(238, 238, 238);
   text-align: center;
-  padding: 0 0 40px 0;
+  padding: 0 0 50px 0;
+  margin-bottom: 50px;
 }
 .text_reserve {
   padding: 8px 0;
   margin: 0 0 0 0;
   font-size: 28px;
-  font-weight: ;
 }
 .text_description {
   font-size: 20px;
   margin-bottom: 40px;
-  font-weight: ;
 }
 .button_explore {
   border: 0 transparent;
@@ -64,29 +67,39 @@ body {
   border-radius: 20px;
   cursor: pointer;
 }
+.button_explore:hover {
+}
 /*main*/
 .function {
   text-align: center;
   align-items: center;
   flex-direction: column;
   display: flex;
+  margin-bottom: 95px;
 }
 .title_function {
-  font-weight: ;
   text-align: left;
-  margin-bottom: 25px;
+  margin: 0;
+  padding-bottom: 30px;
 }
 .choice {
   display: flex;
   justify-content: center;
   border: transparent;
   margin-bottom: 25px;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: rgb(247, 247, 247);
-  padding: 15px 5px;
+  padding: 25px 30px;
   width: 100%;
+  box-shadow: 3px 3px 3px 3px rgb(219, 219, 219);
 }
-/* icon ici!*/
+.icon_choice {
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+  font-size: 25.5px;
+  color: rgb(104, 104, 104);
+}
 .text_choice {
   display: flex;
   text-align: center;
@@ -97,15 +110,14 @@ body {
   padding: 0 10px 0 10px;
 }
 .title_restaurant {
-  padding: 35px 0 25px 0;
-  font-weight: ;
+  padding: 35px 0 10px 0;
 }
 .border_card_restaurant {
   border: transparent;
   background-color: white;
   border-radius: 15px;
   margin-bottom: 20px;
-  box-shadow: ;
+  padding-bottom: 15px;
 }
 .image_welcome {
   object-fit: cover;
@@ -123,23 +135,27 @@ body {
   display: flex;
   flex-direction: column;
 }
+.title_flat_restaurant{
+  margin-bottom: 5px;
+}
 .heart_restaurant {
   font-size: 30px;
 }
 /*footer*/
 .footer {
   background-color: rgb(53, 53, 53);
+  padding: 25px 0;
 }
 .text_icons_footer {
   color: white;
 }
 .text_footer {
-  padding-bottom: 5px;
-  font-size: ;
+  padding-bottom: 20px;
 }
 .icon_text {
   display: flex;
+  align-items: center;
 }
 .icon_footer {
-  margin: 6px;
+  margin: 8px;
 }

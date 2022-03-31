@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
@@ -20,16 +28,14 @@
     <!-- header -->
     <header class="header">
       <div class="logo">
-        <h1 class="logo">OhMyFood</h1>
+        <h1 class="logo">ohmyfood</h1>
       </div>
     </header>
     <!-- main -->
     <main>
       <div class="address">
-        <div>
-          <div><i class="fa-solid fa-location-dot"></i></div>
-          <p class="text_title_reserve">Paris, Belleville</p>
-        </div>
+        <div class="icon_map"><i class="fas fa-map-marker-alt"></i></div>
+        <p class="text_title_reserve">Paris, Belleville</p>
       </div>
       <div class="title_description_button">
         <h1 class="text_reserve">Réservez un menu qui vous convient</h1>
@@ -40,17 +46,19 @@
       </div>
       <div class="function">
         <h1 class="title_function">Fonctionnement</h1>
-        <ul>
+        <ul class="list">
           <li>
             <div class="choice">
               <div class="icon_choice">
-                <i class="fa-solid fa-mobile-screen-button"></i>
+                <span class="list_choice">1</span>
+                <i class="fas fa-mobile-alt"></i>
               </div>
               <p class="text_choice">Choissisez un restaurant</p>
             </div>
           </li>
           <li>
             <div class="choice">
+              <span class="list_choice">2</span>
               <div class="icon_choice">
                 <i class="fas fa-solid fa-list"></i>
               </div>
@@ -59,6 +67,7 @@
           </li>
           <li>
             <div class="choice">
+              <span class="list_choice">3</span>
               <div class="icon_choice">
                 <i class="fas fa-solid fa-store"></i>
               </div>
@@ -78,7 +87,7 @@
           />
           <div class="border_text_restaurant">
             <div class="text_icon_restaurant">
-              <h2>La palette du goût</h2>
+              <h2 class="title_flat_restaurant">La palette du goût</h2>
               <p>Ménilmontant</p>
             </div>
             <div class="heart_restaurant">
@@ -94,7 +103,7 @@
           />
           <div class="border_text_restaurant">
             <div class="text_icon_restaurant">
-              <h2>La note enchantée</h2>
+              <h2 class="title_flat_restaurant">La note enchantée</h2>
               <p>Charonne</p>
             </div>
             <div class="heart_restaurant">
@@ -110,7 +119,7 @@
           />
           <div class="border_text_restaurant">
             <div class="text_icon_restaurant">
-              <h2>A la française</h2>
+              <h2 class="title_flat_restaurant">A la française</h2>
               <p>Cité rouge</p>
             </div>
             <div class="heart_restaurant">
@@ -126,7 +135,7 @@
           />
           <div class="border_text_restaurant">
             <div class="text_icon_restaurant">
-              <h2>Le délice de sens</h2>
+              <h2 class="title_flat_restaurant">Le délice de sens</h2>
               <p>Folie-Méricourt</p>
             </div>
             <div class="heart_restaurant">
@@ -147,12 +156,8 @@
           <p class="text_footer">Proposez un restaurant</p>
         </div>
         <div class="icon_text">
-          <div>
-            <div class="icon_footer">
-              <div class="icon_footer">
-                <i class="fas fa-solid fa-handshake-angle"></i>
-              </div>
-            </div>
+          <div class="icon_footer">
+            <i class="fas fa-hands-helping"></i>
           </div>
           <p class="text_footer">Devenir partenaire</p>
         </div>
