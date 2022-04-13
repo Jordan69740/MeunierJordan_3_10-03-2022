@@ -93,6 +93,7 @@ body {
   padding: 25px 30px;
   width: 100%;
   box-shadow: 3px 3px 3px 3px rgb(219, 219, 219);
+  position: relative;
 }
 .icon_choice {
   display: flex;
@@ -115,10 +116,8 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-}
-.list_choice{
   position: absolute;
-  right: 300px;
+  left: -15px;
 }
 .block_restaurant {
   background-color: rgb(238, 238, 238);
@@ -155,10 +154,24 @@ body {
 }
 .heart_restaurant {
   font-size: 30px;
-  color: black;
+  position: relative;
 }
-.heart_restaurant:hover{
-  color: linear-gradient(to top, var(--color-purple), var(--color-pink));
+.heart_restaurant:hover .heart{
+  opacity: 0;
+}
+.heart_restaurant:hover .heart_backgraound{
+  opacity: 1;
+  color: red;
+}
+.heart{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: black;
+  opacity: 1;
+}
+.heart_backgraound{
+  opacity: 0;
 }
 /*footer*/
 .footer {
