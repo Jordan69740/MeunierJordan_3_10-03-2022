@@ -155,19 +155,21 @@ body {
 .heart_restaurant {
   font-size: 30px;
   position: relative;
+  cursor: pointer;
 }
 .heart_restaurant:hover .heart{
   opacity: 0;
 }
 .heart_restaurant:hover .heart_backgraound{
   opacity: 1;
-  color: red;
+  background-color: linear-gradient(to top, #9356dc, #ff79da);
+  background-color: text;
+  -webkit-background-clip: text;
 }
 .heart{
   position: absolute;
   top: 0;
   right: 0;
-  color: black;
   opacity: 1;
 }
 .heart_backgraound{
@@ -196,4 +198,9 @@ body {
 }
 .icon_footer {
   margin: 8px;
+}
+.link_phone{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }

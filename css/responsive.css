@@ -43,4 +43,7 @@
   }
 }
 @media (max-width: 375px) {
+  .heart_restaurant:active{
+    color: rgb(0, 0, 255);
+  }
 }

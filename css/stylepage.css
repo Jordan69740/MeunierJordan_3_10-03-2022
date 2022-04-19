@@ -18,9 +18,13 @@
   font-size: ;
 }
 /*main*/
+.main{
+  width: 400px;
+  margin: auto;
+}
 .image_flat {
-  height: 230px;
   object-fit: cover;
+  width: 20%;
 }
 .block_menu {
 }
