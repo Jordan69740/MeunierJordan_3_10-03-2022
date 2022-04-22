@@ -161,10 +161,11 @@ body {
   opacity: 0;
 }
 .heart_restaurant:hover .heart_backgraound{
-  opacity: 1;
-  background-color: linear-gradient(to top, #9356dc, #ff79da);
-  background-color: text;
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s;
+  opacity: 1;
 }
 .heart{
   position: absolute;
