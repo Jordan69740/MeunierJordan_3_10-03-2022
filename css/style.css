@@ -145,6 +145,28 @@ body {
   display: flex;
   margin: 0 15px;
 }
+.border_new_flat_1{
+  position: absolute;
+  right: 25px;
+  top: 1100px;
+  background-color: var(--color-sky-blue);
+  color: black;
+  width: 64px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.border_new_flat_2{
+  position: absolute;
+  right: 25px;
+  top: 1360px;
+  background-color: var(--color-sky-blue);
+  color: black;
+  width: 64px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-weight: 500;
+}
 .text_icon_restaurant {
   display: flex;
   flex-direction: column;

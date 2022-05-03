@@ -46,4 +46,10 @@
   .heart_restaurant:active{
     color: rgb(0, 0, 255);
   }
+  .border_new_flat_1{
+    margin-top: 40px;
+  }
+  .border_new_flat_2{
+    margin-top: 30px;
+  }
 }

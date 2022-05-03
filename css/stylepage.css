@@ -40,6 +40,7 @@ body {
   object-fit: cover;
   width: 100%;
   text-align: center;
+  margin-bottom: 20px;
 }
 .block_menu {
 }
@@ -84,7 +85,9 @@ body {
   border-radius: 15px;
   box-shadow: 0px 3px 8px 6px rgb(228, 228, 228);
   margin-bottom: 20px;
-  padding: 10px
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
 .title_recipe {
   font-size: ;
@@ -114,25 +117,34 @@ body {
   background: var(--color-sky-blue);
   border: none;
 }
-.title_flat {
-  display: flex;
-  font-size: ;
-  font-weight: ;
-  margin-bottom: 5px;
+.title_flat_description{
+  padding: 0 px;
 }
-.ingredient {
-  font-size: ;
-  font-weight: ;
+.description_flat{
+  margin-right: 140px;
 }
 .price {
   font-weight: 800;
-}
-.ingredient_price {
-  display: flex;
-  justify-content: space-between;
+  padding: 10px;
 }
 .title_flat_ingredient_price{
   padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.title_flat_ingredient_price:hover{
+  width: 80%;
+}
+.block_check_icon{
+  background-color: var(--color-sky-blue);
+  width: 0%;
+  font-size: 0px;
+}
+.block_check_icon:hover{
+  color: black;
+  width: 20%;
+  font-size: 25px;
 }
 .button_order {
   border: 0 transparent;
