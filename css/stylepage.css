@@ -19,30 +19,33 @@ body {
 /*header*/
 .header{
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .icon_arrow{
   font-size: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.text_decoration{
+  text-decoration: none;
+  color: black;
 }
 .logo {
   font-family: "Shrikhand", cursive;
   font-size: 50px;
   margin-left: 10px;
+  cursor: pointer;
 }
 /*main*/
 .main{
   text-align: center;
-  width: 400px;
   margin: auto;
 }
 .image_flat {
   object-fit: cover;
   width: 100%;
   text-align: center;
-  margin-bottom: 20px;
-}
-.block_menu {
+  height: 600px;
 }
 .title_menu {
   margin: 0 50px 35px 20px;
@@ -77,21 +80,31 @@ body {
 .text_flat_icon{
   display: flex;
   align-items: center;
+  padding: 20px;
+  justify-content: space-between;
 }
 .block_flat_menu {
   border-radius: 25px 25px 0 0;
+  margin-top: -50px;
+  background-color: white;
+  position: relative;
+  padding: 0 20px;
 }
 .border_card{
   border-radius: 15px;
   box-shadow: 0px 3px 8px 6px rgb(228, 228, 228);
   margin-bottom: 20px;
-  padding: 10px;
   display: flex;
-  align-items: center;
+}
+.list_menu{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list_menu_items{
+  width: 31%;
 }
 .title_recipe {
-  font-size: ;
-  font-weight: ;
   margin: 0 275px -3px 0;
   padding-bottom: 6px;
   position: relative;
@@ -118,33 +131,68 @@ body {
   border: none;
 }
 .title_flat_description{
-  padding: 0 px;
+  font-size: 14px;
+  text-align: left;
+}
+.title_flat_description h2{
+  font-weight: 400;
 }
 .description_flat{
-  margin-right: 140px;
+  white-space: nowrap;
+  width: 100%;
 }
 .price {
   font-weight: 800;
-  padding: 10px;
 }
 .title_flat_ingredient_price{
-  padding: 0 10px;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  transition: all 0.5s;
+  text-align: end;
+  padding: 10px;
 }
-.title_flat_ingredient_price:hover{
+.title_flat{
+  width: 100%;
+  white-space: nowrap;
+}
+.border_card:hover .title_flat{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 80%;
+}
+.border_card:hover .description_flat{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   width: 80%;
 }
 .block_check_icon{
   background-color: var(--color-sky-blue);
   width: 0%;
-  font-size: 0px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 15px 15px 0;
 }
-.block_check_icon:hover{
-  color: black;
+.border_card:hover .block_check_icon{
   width: 20%;
-  font-size: 25px;
+}
+.block_check_icon i{
+  transition: all 0.7s;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+}
+.border_card:hover .block_check_icon i{
+  transform: rotate(360deg);
+  opacity: 1;
+  color: white;
+}
+.border_card:hover .title_flat_ingredient_price{
+  width: 80%;
 }
 .button_order {
   border: 0 transparent;

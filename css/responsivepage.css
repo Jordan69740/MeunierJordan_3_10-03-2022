@@ -1,4 +1,40 @@
 @media (max-width: 768px){
+    .image_flat{
+        height: 20%;
+    }
+    .list_menu_items{
+        width: 100%;
+    }
+    .title_recipe{
+        margin: 0 580px -3px 0;
+    }
+    .icon_arrow{
+        margin: 0 200px 0 15px;
+      }
 }
 @media (max-width: 375px) {
+    .logo{
+        font-size: 30px;
+    }
+    .title_flat_description{
+    }
+    .title_flat{
+        font-size: 17px;
+    }
+    .icon_arrow{
+        margin: 0 50px 0 15px;
+      }
+    .image_flat{
+        height: 25%;
+    }
+    .title_menu{
+        font-size: 25px;
+        white-space: nowrap;
+    }
+    .text_flat_icon{
+        margin-left: -35px;
+    }
+    .title_recipe{
+        margin: 0 190px -3px 0;
+    }
 }

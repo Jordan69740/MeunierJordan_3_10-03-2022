@@ -9,6 +9,10 @@ body {
 .list {
   list-style-type: none;
 }
+.text_decoration{
+  text-decoration: none;
+  color: black;
+}
 /*couleur utiiser*/
 .color-purple {
   color: var(--color-purple);
@@ -102,6 +106,20 @@ body {
   font-size: 25.5px;
   color: rgb(104, 104, 104);
 }
+.choice:hover{
+  background-color: var(--color-purple);
+  color: white;
+}
+.choice:hover .icon_choice{
+  color: white;
+}
+.choice:hover .list_choice{
+  background-color: white;
+  border: 1px solid var(--color-purple);
+}
+.choice:hover .number{
+  color: var(--color-purple);
+}
 .text_choice {
   display: flex;
   text-align: center;
@@ -132,6 +150,13 @@ body {
   border-radius: 15px;
   margin-bottom: 20px;
   padding-bottom: 15px;
+}
+.border_card_restaurant:hover{
+  background-color: var(--color-sky-blue);
+  color: white;
+}
+.border_card_restaurant:hover .text_decoration{
+  color: white;
 }
 .image_welcome {
   object-fit: cover;
@@ -197,6 +222,12 @@ body {
 }
 .heart_backgraound{
   opacity: 0;
+}
+.border_card_restaurant:hover .border_new_flat_1{
+  color: white;
+}
+.border_card_restaurant:hover .border_new_flat_2{
+  color: white;
 }
 /*footer*/
 .footer {
