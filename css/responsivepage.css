@@ -16,10 +16,11 @@
     .logo{
         font-size: 30px;
     }
-    .title_flat_description{
-    }
     .title_flat{
-        font-size: 17px;
+        font-size: 14px;
+    }
+    .description_flat{
+        font-size: 11px;
     }
     .icon_arrow{
         margin: 0 50px 0 15px;

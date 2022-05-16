@@ -90,6 +90,13 @@ body {
   position: relative;
   padding: 0 20px;
 }
+.block_flat_menu_2 {
+  border-radius: 25px 25px 0 0;
+  margin-top: -150px;
+  background-color: white;
+  position: relative;
+  padding: 0 20px;
+}
 .border_card{
   border-radius: 15px;
   box-shadow: 0px 3px 8px 6px rgb(228, 228, 228);
@@ -136,14 +143,14 @@ body {
   text-align: left;
 }
 .title_flat_description h2{
-  font-weight: 400;
+  font-weight: 600;
 }
 .description_flat{
   white-space: nowrap;
-  width: 100%;
 }
 .price {
   font-weight: 800;
+  padding-right: 5px;
 }
 .title_flat_ingredient_price{
   display: flex;
@@ -157,18 +164,20 @@ body {
 .title_flat{
   width: 100%;
   white-space: nowrap;
+  margin-bottom: 3px;
+  font-size: 18px;
 }
 .border_card:hover .title_flat{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 80%;
+  width: 70%;
 }
 .border_card:hover .description_flat{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 80%;
+  width: 70%;
 }
 .block_check_icon{
   background-color: var(--color-sky-blue);
