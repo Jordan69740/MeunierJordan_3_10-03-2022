@@ -78,14 +78,12 @@ body {
     width: 0;
   }
 }
-
 /*header*/
 .logo {
   text-align: center;
   font-family: "Shrikhand", cursive;
   font-size: 50px;
 }
-
 .icon_map {
   color: black;
   margin: 0 8px;
